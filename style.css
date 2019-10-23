@@ -5,3 +5,9 @@
 .card {
   margin-bottom: 20px;
 }
+
+.image {
+  background-image: url(img/me6.png);
+  background-size: 319px 280px;
+  background-repeat: no-repeat;
+}
