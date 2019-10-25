@@ -6,8 +6,29 @@
   margin-bottom: 20px;
 }
 
-.principal {
+/* .principal {
   background-image: url(img/me6.png);
   background-size: 319px 280px;
   background-repeat: no-repeat;
+} */
+
+.thumbnail {
+  position: relative;
+  width: 271px;
+  height: 286px;
+  overflow: hidden;
 }
+.thumbnail img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 100%;
+  width: auto;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+/* .thumbnail img.portrait {
+    width: 100%;
+    height: auto;
+  } */
